@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="#000000"
+              android:gravity="center"
+              android:layout_height="match_parent">
+<me.dm7.barcodescanner.zxing.ZXingScannerView
+    android:id="@+id/scanner"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    app:layout_constraintDimensionRatio="w,1:1"
+    app:laserEnabled="false"
+    app:maskColor="#00ff00ff"
+    app:squaredFinder="true"
+    app:shouldScaleToFill="true"
+
+
+
+
+
+    ></me.dm7.barcodescanner.zxing.ZXingScannerView>
+</LinearLayout>

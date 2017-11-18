@@ -1,0 +1,252 @@
+<resources>
+    <string name="app_name">player</string>
+    <string name="textoInicial">Bienvenido.\n\nHa sido agraciado con una invitación para participar en una velada en la que nada es lo que parece y todo puede ocurrir.\n\nPara confirmar su asistencia</string>
+    <string name="codeHint">introduzca la clave secreta</string>
+    <string name="permission">Necesitamos usar la cámara para poder encontrar pistas.\nA continuación el sistema te pedirá permiso para usarla.\nAcepta para poder buscar las pistas.</string>
+    <string name="continuar">Continuar</string>
+    <string name="salir">salir</string>
+
+    <string name="ideas">\nIDEAS DE INDUMENTARIA</string>
+    <string name="clavesComportamiento">\nCLAVES EN TU COMPORTAMIENTO</string>
+    <string name="tarea">\nTAREA A DAR AL RESTO DE JUGADORES</string>
+
+    <string name="tituloPersonajeGreen">EL SEÑOR GREEN, EL HIJO</string>
+    <string name="textoPersonajeGreen">Tu cabeza está a punto de estallar. Tu madre está harta de las infidelidades de tu padre y de sus problemas con el juego. Así que en un ataque de ira, te cuenta que el Señor White no es en realidad tu padre.  Y en ese instante, muchos momentos traumáticos de tu vida comienzan a tener sentido. Esas miradas desafiantes, ese desprecio de tu propio padre a todos tus logros, esa infancia en los internados más alejados de Inglaterra. Todo cobra sentido para tí. Crees que él lo sabía, o al menos lo sospechaba.\n\nAsí que tienes la certeza de que esta invitación a esta velada tan extraña, es la ocasión perfecta para que el maldito Señor White te desherede, anunciándote como el fruto de una infidelidad de tu madre, y la oportunidad perfecta de deshacerse tanto de ti como de tu madre. Y eso no lo vas a permitir. Has aguantado una vida de maltrato y desprecio para que ahora tanto tú como tu madre terminéis en la calle.</string>
+    <string name="indumentariaPersonajeGreen">Debes llevar alguna prenda de color verde (por ejemplo, pañuelo en el pecho, camisa, chaqueta), de modo que el resto de jugadores pueda verla claramente e identificarte rápidamente.</string>
+    <string name="comportamientoPersonajeGreen">Eres un joven rico resentido con tu padre por una vida de maltrato y vejaciones. Además acabas de descubrir que no es tu verdadero padre y que es muy posible que te desherede esta noche. Por lo que tendrás una relación tensa con el Señor White, cercana con la Señora White y de nerviosismo con el Señor Brown (tu verdadero padre). Intentarás estar al lado de la Señora White durante la cena.</string>
+    <string name="tareaPersonajeGreen">Necesitas desesperadamente que el testamento actual desaparezca, por lo que pides a los invitados que busquen en el mismo y que te lo entreguen. Sabes que el Señor White no guardaría un documento tan personal e importante en su despacho junto al resto de documentos. Si te entregan el testamento, les darás la información.</string>
+
+    <string name="tituloPersonajeBrown">EL DOCTOR BROWN, EL DOCTOR DE LA FAMILIA</string>
+    <string name="textoPersonajeBrown">Seguiste los pasos de tu padre como doctor en la casa de los White cuando él murió, y eres algo mayor que el Señor White. Llevas toda una vida presenciando las infidelidades del Señor White a su esposa, de la cual siempre estuviste enamorado. Por eso, en un momento de pasión y juventud, ya hace más de 25 años, sedujiste a la Señora White y fruto de esa noche de pasión, nació un niño, el cual decidiste ver crecer en en la sombra y guardando el secreto durante tantos años, mientras mantenías una relación secreta con la Señora White.\n\nPero ahora crees que el Señor White sabe con certeza que tú eres el padre de su hijo, y que es la ocasión perfecta para desheredarlo y echarlos tanto a él como a su madre de la mansión, y quedarse con toda la fortuna de los White.</string>
+    <string name="indumentariaPersonajeBrown">Debes llevar alguna prenda de color marrón (camisa, corbata, americana) que se vea claramente y que permita diferenciar rápidamente quien eres al resto de jugadores.</string>
+    <string name="comportamientoPersonajeBrown">Tienes una relación cercana con la Señora White y de preocupación por su salud, pero temes que el Señor White se de cuenta. También intentarás defender al Señor Green siempre que puedas de los continuos ataques del Señor White, pero de manera sosegada, intentando calmar los ánimos. Intentarás estar al lado de la Señora White durante la cena.</string>
+    <string name="tareaPersonajeBrown">Como médico de la familia sabes perfectamente que en el libro de familia hay suficientes indicios para alguien un poco perspicaz de que la firma que hay en la inscripción del Señor Green está falsificada. Necesitas que alguien te traiga ese documento. Crees que debe estar en el despacho. Si te lo traen, les darás la información. Nadie debe enterarse.</string>
+
+    <string name="tituloPersonajeGolden">EL SEÑOR GOLDEN, EL ALCALDE</string>
+    <string name="textoPersonajeGolden">No eras nadie cuando te metiste en esto de la política, ni siquiera pertenecías a una familia adinerada. Pero te supiste mover entre los círculos de la aristocracia mientras eras joven, aparentando ser algo que no eras, una persona con principios. Y el Señor White se dio cuenta. Por eso, desde un principio, impulsó tu carrera política, aportando grandes sumas de dinero hasta que llegaste años más tarde a la alcaldía de una importante ciudad. Pero eso fue tu perdición.\n\nLlevas 20 años ocultando los negocios turbios del Señor White, dándole licencias de construcción en terrenos públicos y ocultando el impago de impuestos del entramado de empresas del Señor White.\n\nAhora hay un nuevo candidato a la alcaldía, y es exactamente igual que tú cuando eras joven. Y sabes que el Señor White lleva un tiempo en conversaciones en la sombra con este nuevo candidato. No estás dispuesto a que estos 20 años de corrupción acaben con tu carrera y que el Señor White tire de la manta para apoyar al nuevo candidato y que éste oculte sus delitos.</string>
+    <string name="indumentariaPersonajeGolden">Debes llevar un distintivo dorado (un colgante, un medallón, un broche) de manera que se vea claramente por los demás jugadores (te recomendamos que lo coloques en el pecho) y puedan identificarte rápidamente.</string>
+    <string name="comportamientoPersonajeGolden">Estas muy nervioso con cada comentario del Señor White y darás muestras de preocupación tanto por los ataques contra tí como con los ataques contra el Señor Navy. Entablarás continuas conversaciones con el Señor Navy, ya que ambos estáis juntos por vuestros intereses en que el Señor White no destape vuestros negocios turbios y te sustituya por otro alcalde más joven. Intentaréis estar uno al lado del otro durante la cena.</string>
+    <string name="tareaPersonajeGolden">Necesitas saber cual es el nombre del candidato al que apoya el Señor White. Quizás de esa manera puedas boicotear su campaña lo suficientemente rápido como para obligar a Señor White a volver a apoyarte. Necesitas la agenda negra del Señor White, la misma en la que anota los números de sus contactos más turbios y que tú también compartes. Sabes que no estará ni en el despacho ni en su dormitorio, es una información demasiado sensible como para mezclarla con trabajo o cuestiones personales. Si te la entregan, les darás la información.</string>
+
+    <string name="tituloPersonajeNavy">EL SEÑOR NAVY, EMPRESARIO CON NEGOCIOS DE DUDOSA LEGALIDAD</string>
+    <string name="textoPersonajeNavy">Llevas más de 30 años forjando tu imperio al margen de la ley con negocios como el contrabando de alcohol, prostitución, apuestas ilegales y todo aquello que puede darte dinero rápidamente. Eres una persona sin escrúpulos que se ha sabido rodear de gente poderosa y durante este tiempo has sabido meterte en el bolsillo al actual alcalde, el Señor Golden, quien te debe más de la mitad de su fortuna gracias a estos años de turbios negocios.\n\nDurante estos últimos años el Señor White se ha acostumbrado a no pagar sus grandes deudas en tus diferentes empresas, especialmente en tus casinos; ascendiendo la deuda a más de un millón de libras esterlinas. Han llegado a tus oídos rumores sobre la intención del Señor White de apoyar a un nuevo candidato para la alcaldía, y sabes lo que eso supondrá para ti. Tienes la certeza de que un nuevo alcalde supondrá hacer limpieza en la ciudad y que todos estos años comprando al actual alcalde habrán sido una mala inversión.\n\nAsí que das por perdido el dinero que te debe el Señor White; y pensando en tu futuro, sabes exactamente cuál es la solución. El Señor White debe desaparecer.</string>
+    <string name="indumentariaPersonajeNavy">Debes llevar una prenda de color azul marino (fular, pañuelo, americana) que se vea claramente y que permita diferenciar rápidamente quien eres al resto de jugadores.</string>
+    <string name="comportamientoPersonajeNavy">Estás realmente furioso con el comportamiento del Señor White y es él el que debería tenerte miedo a tí y no la revés. Eres una persona violenta y debes dejarlo claro, aunque debes intentar guardar las apariencias, por mucho que te cueste. Debes intentar sentarte al lado del Señor Golden, ya que os conocéis y os interesa que el Señor White desaparezca antes de que se anuncie su apoyo al nuevo candidato a la alcaldía.</string>
+    <string name="tareaPersonajeNavy">Hace unos años le regalaste al Señor White una pistola en la que están tus huellas. Sabes que no ha sido usada para matarlo, pero no quieres que la policía haga preguntas sobre su origen. Está metida en una caja de madera con sus iniciales grabadas en oro. Sabes que es una persona desconfiada, así que piensas que debe tener a mano en su dormitorio. Si te entregan la caja sin abrirla, les darás la información.</string>
+
+    <string name="tituloPersonajeGray">LA SEÑORA GRAY, LA SOCIA INVERSORA</string>
+    <string name="textoPersonajeGray">Eres una de las personas más y mejor preparadas para los negocios, y actualmente eres una de las ejecutivas más agresivas de una de las corporaciones más importantes del país. Y justo en el momento de mayor estrés profesional, tu madre, en su lecho de muerte, te confiesa tu verdadero origen: Nada más nacer, tu verdadera madre te abandonó en la puerta de su casa, sabiendo que allí recibirías una vida mucho mejor de la que ella podría darte.\n\nTu madre te acogió como hija propia debido a que llevaban muchos años deseando tener hijos y cuando ya lo daba todo por perdido, una noche de tormenta, una antigua sirvienta, aún muy joven, llamó a su puerta y le entregó a su propia hija. Sabes que tu verdadera madre es la Señora Black y trabaja actualmente en la Mansión de los White. Tras pagar a uno de los mejores investigadores del país, averiguas quién es tu verdadero padre: el Señor White. Él obligó a tu madre a abandonarte si quería mantener su trabajo en la mansión. Él utilizó a tu madre cuando sólo era una joven sirvienta y truncó vuestras vidas.\n\nAhora, aprovechándome de tu posición actual y dándote a conocer como una socia inversora, tienes la intención de llevar a la familia White a la quiebra; vengándote así de una vida de mentiras y engaños.</string>
+    <string name="indumentariaPersonajeGray">Debes llevar un complemento plateado (broche grande, collar) que se vea claramente y que permita diferenciar rápidamente quien eres al resto de jugadores.</string>
+    <string name="comportamientoPersonajeGray">Estás secretamente infiltrada en esta velada y nadie sabe quien eres en realidad. Quieres colocarte frente a la Señora Black, ya que acabas de descubrir que es tu madre, debes averiguar lo que puedas de ella pero sin decirle quien eres en realidad. También deberás sonsacarle al Señor White sobre el estado financiero de su corporación, para darle a entender que estás interesada en que la empresa para la que trabajas está interesada en invertir. Aunque sabes que es tu padre y el responsable de tu abandono, debes poner buena cara a semejante pieza que es el Señor White.</string>
+    <string name="tareaPersonajeGray">Necesitas averiguar cual es el estado financiero real de la corporación del Señor White, por lo que necesitas que te consigan los papeles que fuiste a buscar. Necesitas los albaranes de compra de su despacho, tú ya no te puedes acercar pero alguno de los invitados te ayudaría a cambio de la información que posees.</string>
+
+    <string name="tituloPersonajeViolet">SEÑORITA VIOLET, SECRETARIA Y AMANTE DEL SEÑOR WHITE</string>
+    <string name="textoPersonajeViolet">Eras muy joven cuando comenzaste a trabajar como secretaria para el señor White, y quedaste abrumada ante un mundo que para ti era inimaginable: reuniones con altos ejecutivos, personas influyentes de la política local, cenas de trabajo en restaurantes de moda de la alta sociedad; nublaron tu juicio y te dejaste seducir por las mentiras y promesas del Señor White, el que se aprovechó de tu inocencia y una vez te había usado te dejó claro que solamente eras una más.\n\nPasaste entonces de tu tristeza y vergüenza más profunda a crear un sistema muy sofisticado a través del cual has conseguido desviar a una cuenta personal en el extranjero más de doscientas mil libras, que harán que esta vivencia sea más fácil de llevar.\n\nTodo iba bien hasta que, pasados dos meses, descubres que estás embarazada del único hombre con el que has estado, el Señor White; y decides aumentar la cantidad de dinero que desvías a tu cuenta, antes de que se note que estás embarazada. Pero esto hace que salte la liebre y que el Señor White ordene investigar esa fuga de capital tan grande en tan poco tiempo.\n\nSi el Señor White se entera de que tú eres la responsable del desfalco, tienes la certeza de que, en el mejor de los casos, tanto tú como tu hijo terminaréis en la cárcel, ya que sabes que de ninguna manera el Señor White lo reconocería como su hijo. El Señor White debe desaparecer.</string>
+    <string name="indumentariaPersonajeViolet">Debes llevar un complemento violeta o morado (pañuelo en el pelo, cinta o diadema) que se vea claramente y que permita diferenciar rápidamente quien eres al resto de jugadores.</string>
+    <string name="comportamientoPersonajeViolet">Estás realmente a punto de enloquecer, ya que sabes que la persona que está presente, quiere que abortes. Además de sentirte con náuseas que intentas ocultar. Ve repetidas veces al baño poniendo alguna excusa e intenta hacer recapacitar al Señor White en privado cuando tengas ocasión. Evita ante todo que el resto de invitados sepan que estás embarazada.</string>
+    <string name="tareaPersonajeViolet">Sabes en el fondo que el Señor White no cambiará de idea y que la señora tiene muchas joyas y ni se dará cuenta si algunas de ellas desapareciesen. Convence a alguno de los invitados de que te traiga alguna y le ayudarás en tu investigación. Crees que están en el dormitorio de la familia.</string>
+
+    <string name="tituloPersonajeBlack">LA SEÑORA BLACK, AMA DE LLAVES</string>
+    <string name="textoPersonajeBlack">Comenzaste a trabajar para los White hace muchos años. Entraste a trabajar en la mansión como una simple sirvienta, siendo tú muy jovencita, y recomendada por tu anterior señora. Actualmente eres el ama de llaves de la Mansión White y para llegar a esta posición has tenido que llevar una vida de silencio y sufrimiento, siendo acosada constantemente durante tu juventud por el Señor White, quien llegó a dejarte embarazada y después te obligó a deshacerte de tu propia hija, nada más nacer ésta. Desde entonces, poco a poco has ido refugiándote en el alcohol, como vía de escape cuando estás nerviosa.\n\nEl hecho de ser ama de llaves, te ha dado la posibilidad de conocer todos los secretos de las personas que viven o han pasado en algún momento por la mansión.\n\nHace no mucho tiempo, en varias de las últimas reuniones matutinas que se celebraron en la mansión viste como Violet, la secretaria del Señor White, se excusó en varias ocasiones para ir al baño. Preocupada por su estado acudiste a su encuentro y, después de no recibir respuesta por su parte, abriste la puerta con tu llave maestra, y encontraste a la joven tirada en el suelo vomitando.\n\nEse fue el momento en el que decidiste que no ibas a permitir que la historia se repitiese. Aprovecharás la ocasión de esta velada, en la que sabes que muchos de los invitados tienen interés en que el señor White desaparezca, para vengarte de una vez por todas de la persona que destrozó tu vida y la de tu familia.</string>
+    <string name="indumentariaPersonajeBlack">Debes ir vestida totalmente de negro, con un gran llavero del que cuelguen multitud de llaves.</string>
+    <string name="comportamientoPersonajeBlack">Estás claramente pendiente de la Señorita Gray, quien sabes que es tu hija, cuya presencia te ha sorprendido enormemente, hasta el punto de sospechar que pueda estar presente con objetivos diferentes a los que dice. Intentarás estar atenta a sus necesidades (rellenar su copa cuando esté vacía, preguntarle constantemente si precisa algo, recogerle el plato siempre la primera,...).</string>
+    <string name="tareaPersonajeBlack">Todo esto te está poniendo de los nervios, si pudieras tomarte un whisky te tranquilizarías lo suficiente como para ser capaz de recordar todo. Quizás si alguien te trajera uno se te soltara la lengua.</string>
+
+    <string name="tituloPersonajeWhite">SEÑORA WHITE, ESPOSA DEL SEÑOR WHITE</string>
+    <string name="textoPersonajeWhite">Perteneces a una familia aristocrática de Inglaterra. Tu matrimonio fue concertado por tu padre cuando tú tenías tan solo 14 años y te casó con un hombre quince años mayor que tú al que no amabas, ni amaste nunca. El señor White quiso tener hijos pero nunca te quedaste embarazada, por lo que tuviste que soportar insultos y desprecios por parte de tu marido. Esa violencia que el Señor White ejercía sobre ti hizo que aumentase tu odio y rechazo hacia él. Fue entonces cuando descubriste que el Doctor Brown era tu único apoyo en aquella casa. Esta situación te llevó a enamorarte de él, y en una noche de pasión te quedaste embarazada.\n\nEs en ese momento cuando decides guardar el secreto y criar a tu niño como el hijo del señor White, y futuro heredero de su fortuna. Lo que nunca te habías podido imaginar es que el Señor White iba a despreciar a su propio hijo, haciendo de su vida un verdadero calvario: años internado en colegios lejos de casa, continuos castigos físicos, humillantes comentarios, menosprecios públicos. Aunque, ¿qué podías esperar de un maltratador como tu marido…?\n\nY es, en estos últimos días, en los que ya no has aguantado más. Las continuas visitas de su secretaria a casa, los continuos desprecios a tu hijo y el despilfarro continuo en casinos y demás negocios turbios, sabes con certeza que este ritmo de despilfarro llevará a esta familia a la bancarrota. Por lo que, por el bien y el futuro de tu hijo, has decidido que el Señor White debe desaparecer.</string>
+    <string name="indumentariaPersonajeWhite">Deberás llevar algún broche o joya de color blanco, pudiendo ser también una prenda de color blanco que contraste con el resto de tu vestimenta. Debe verse claramente que eres la Señora White.</string>
+    <string name="comportamientoPersonajeWhite">Tienes la certeza de que esta noche acabarás en la calle por tu infidelidad y que tu hijo será desheredado. Así que no tienes nada que perder y a la mínima que te insulte o maltrate el Señor White, le responderás recordándole que sabes de sus muchas infidelidades. Intentarás calmar siempre que puedas a tu hijo, el Señor Green. También puedes tener miradas cómplices con el Señor Brown.</string>
+    <string name="tareaPersonajeWhite">Necesitas evadirte de alguna manera de esta situación, y en el fondo sabes que no puedes hacer nada. Así que, para que esta noche sea más llevadera, darás tu pista si te responden a un  acertijo, a tu elección, que les propongas (DAR VARIOS ACERTIJOS EN LA APP, de tres niveles de dificultad, empezando por la más difícil y bajando la dificultad de las mismas).</string>
+
+    <string name="tituloPersonajeInvestigador">INVESTIGADOR</string>
+    <string name="textoPersonajeInvestigador">Perteneces a una familia aristocrática de Inglaterra. Tu matrimonio fue concertado por tu padre cuando tú tenías tan solo 14 años y te casó con un hombre quince años mayor que tú al que no amabas, ni amaste nunca. El señor White quiso tener hijos pero nunca te quedaste embarazada, por lo que tuviste que soportar insultos y desprecios por parte de tu marido. Esa violencia que el Señor White ejercía sobre ti hizo que aumentase tu odio y rechazo hacia él. Fue entonces cuando descubriste que el Doctor Brown era tu único apoyo en aquella casa. Esta situación te llevó a enamorarte de él, y en una noche de pasión te quedaste embarazada.\n\nEs en ese momento cuando decides guardar el secreto y criar a tu niño como el hijo del señor White, y futuro heredero de su fortuna. Lo que nunca te habías podido imaginar es que el Señor White iba a despreciar a su propio hijo, haciendo de su vida un verdadero calvario: años internado en colegios lejos de casa, continuos castigos físicos, humillantes comentarios, menosprecios públicos. Aunque, ¿qué podías esperar de un maltratador como tu marido…?\n\nY es, en estos últimos días, en los que ya no has aguantado más. Las continuas visitas de su secretaria a casa, los continuos desprecios a tu hijo y el despilfarro continuo en casinos y demás negocios turbios, sabes con certeza que este ritmo de despilfarro llevará a esta familia a la bancarrota. Por lo que, por el bien y el futuro de tu hijo, has decidido que el Señor White debe desaparecer.</string>
+    <string name="indumentariaPersonajeInvestigador">Deberás llevar algún broche o joya de color blanco, pudiendo ser también una prenda de color blanco que contraste con el resto de tu vestimenta. Debe verse claramente que eres la Señora White.</string>
+    <string name="comportamientoPersonajeInvestigador">Tienes la certeza de que esta noche acabarás en la calle por tu infidelidad y que tu hijo será desheredado. Así que no tienes nada que perder y a la mínima que te insulte o maltrate el Señor White, le responderás recordándole que sabes de sus muchas infidelidades. Intentarás calmar siempre que puedas a tu hijo, el Señor Green. También puedes tener miradas cómplices con el Señor Brown.</string>
+    <string name="tareaPersonajeInvestigador">Necesitas evadirte de alguna manera de esta situación, y en el fondo sabes que no puedes hacer nada. Así que, para que esta noche sea más llevadera, darás tu pista si te responden a un  acertijo, a tu elección, que les propongas (DAR VARIOS ACERTIJOS EN LA APP, de tres niveles de dificultad, empezando por la más difícil y bajando la dificultad de las mismas).</string>
+
+
+    <string name="buscarPista">buscar pista</string>
+    <string name="darPista">dar pista</string>
+    <string name="miLibreta">mi libreta</string>
+    <string name="mapa">ver mapa</string>
+    <string name="verHistoria">ver historia</string>
+    <string name="volver">volver</string>
+
+    <string name= "pistaPersonajeGreenVelada1">Estaba en el dormitorio principal cuando se cometió el crimen. Mi madre me pidió que le fuese a buscar una chaqueta para protegerse del frío, pero para cuándo escuché el grito del Sr White, aún no había encontrado la chaqueta. </string>
+    <string name= "pistaPersonajeBrownVelada1">En el momento del estruendo, estaba en la cocina buscando algo fuerte para tomar y poder sobrellevar la situación. Desde allí pude ver a la señorita Violet en el salón. </string>
+    <string name="pistaPersonajeGoldenVelada1">Vi a la Sr Gray entrar en el recibidor justo antes del crimen. </string>
+    <string name=  "pistaPersonajeNavyVelada1">En el momento del estruendo, estaba en el salón con el Sr Golden. </string>
+    <string name=  "pistaPersonajeGrayVelada1">Mientras guardaba unos documentos en mi bolso en el recibidor, oí discutir airadamente a dos hombres en el salón, uno de ellos era el señor Navy. Justo después escuché un fuerte estruendo. </string>
+    <string name="pistaPersonajeVioletVelada1">En el momento del crimen, estaba en el baño debido a las náuseas que últimamente suelo tener. La Sr Black se encontraba conmigo atendiendome. </string>
+    <string name= "pistaPersonajeBlackVelada1">En el momento del crimen, me encontraba atendiendo a la Sr Violet en el baño, pero mientras llamaba a la puerta para preguntar por su estado, vi al Sr Green en el dormitorio principal. </string>
+    <string name= "pistaPersonajeWhiteVelada1">Fue extraño, ya que le pedía a mi hijo que me trajese algo de abrigo y viendo que tardaba mucho,me puse intranquila y fui a buscarlo. Cuando se escuchó el fuerte ruido, estaba en el dormitorio con mihijo. </string>
+
+
+    <string name= "pistaPersonajeGreenVelada2">En el momento del asesinato, me encontraba en el despacho buscando el testamento. Fue entonces cuando vi una figura corpulenta salir del baño justo antes de escuchar el golpe. </string>
+    <string name= "pistaPersonajeBrownVelada2">Por la manera en que asesinaron al Sr White, puedo asegurar que las marcas del cuello son claramente marcas de estrangulamiento. Al pasar por el pasillo antes de entrar en el dormitorio, vi en el despacho al Sr Green. Después entré en el dormitorio para calmar a la Sra White. Fue entonces cuando escuché un fuerte golpe. </string>
+    <string name="pistaPersonajeGoldenVelada2">Estaba en el recibidor recogiendo tus cosas justo cuando se cometió el asesinato. Decidí no marcharme porque parecería que huía de la escena del crimen. Al pasar por el salón vi a dos mujeres conversando, la Sra Violet y la Sra Grey. </string>
+    <string name=  "pistaPersonajeNavyVelada2">Estaba en la cocina cuando escuché un fuerte golpe venir del baño, mientras hablaba con la Sra Black. </string>
+    <string name=  "pistaPersonajeGrayVelada2">Mientras hablaba con la Sr Violet sobre la situación económica de las empresas del Sr White, vi al Sr Golden salir corriendo hacia el Recibidor y segundos después se cometió el crimen. </string>
+    <string name="pistaPersonajeVioletVelada2">Durante la cena me llamó la atención el hombre que tenías justo a tu lado, ya que cogía los cubiertos al revés. Parecía muy enfadado. Estaba en el salón con la señorita Grey cuando escuché un fuerte golpe. </string>
+    <string name= "pistaPersonajeBlackVelada2">En el momento del asesinato, estaba en la cocina cambiando los servicios. Me extrañó que uno de los cuchillos estuviese muy doblado. Hay que tener mucha fuerza en la mano izquierda para hacer tal cosa. El Sr Navy es una persona muy atenta, me estuvo dando charla justo antes de escuchar el golpe mientras estaba en la cocina. </string>
+    <string name= "pistaPersonajeWhiteVelada2">Me estaba entrando un ataque de ansiedad y huí al dormitorio con la excusa de retocarte el maquillaje. En el momento del crimen, el Sr Brown estaba conmigo intentando que me calmase. </string>
+
+    <string name= "pistaPersonajeGreenVelada3">En el momento del estruendo, estábamos la Sra White y yo solos en el salón. </string>
+    <string name= "pistaPersonajeBrownVelada3">Estaba en el pasillo ya con la mano en el picaporte de la puerta del baño cuando se escuchó un fuerte ruido. En ese momento giré la cabeza y vi asomarse a la Sra Violet por la puerta del despacho. </string>
+    <string name="pistaPersonajeGoldenVelada3">Al abrir la puerta del baño para salir, me encontré de frente con el Sr Brown, que ya tenía la mano en el picaporte. Salí al escuchar un gran golpe. </string>
+    <string name=  "pistaPersonajeNavyVelada3">Estaba en el recibidor en el momento del estruendo. Pude ver a la Sra White y su hijo en el salón desde donde estaba. </string>
+    <string name=  "pistaPersonajeGrayVelada3">En el momento del estruendo, estaba en la cocina hablando con la Sra Black, esperando a ver si terminaba por contarme la verdad. Estaba muy nerviosa debido a que era la primera vez que estaba frente a frente con la Señora Black. </string>
+    <string name="pistaPersonajeVioletVelada3">Estaba en el despacho cuando escuché un fuerte golpe, así que asomé la cabeza por la puerta para ver qué pasaba. Me encontré de espaldas al Sr Brown en el pasillo con la mano en el picaporte. </string>
+    <string name= "pistaPersonajeBlackVelada3">Estaba en la cocina en el momento en del estruendo. En ese momento me encontraba hablando con la Sra Grey. Estaba muy emocionada y a la vez nerviosa. Noté que la Sra Grey también lo estaba, pero dudé sobre si conocería la verdad o no. </string>
+    <string name= "pistaPersonajeWhiteVelada3">En el momento del descubrimiento del finado, estaba en el salón con el señor Green. Vi al Sr Navy rebuscando en los abrigos del recibidor justo en el momento en que se escuchó un gran ruido. </string>
+
+    <string name= "pistaPersonajeGreenVelada4">Cuando escuché a mi madre gritar, me encontraba en el dormitorio con el señor Brown. </string>
+    <string name= "pistaPersonajeBrownVelada4">Estaba en el dormitorio con el señor Green cuando escuché un grito de ayuda. Al girarme vi a la señora White junto a un cuerpo en el suelo. Tras ver el cuerpo, como médico,  pude asegurar que la persona que lo mató sabía lo que hacía. </string>
+    <string name="pistaPersonajeGoldenVelada4">En el momento del grito estaba en la cocina con el señor Navy. </string>
+    <string name=  "pistaPersonajeNavyVelada4">Estaba en la cocina con el señor Golden hablando cuando escuché el grito de la señora White. Desde la cocina pude ver justo en ese momento a la señora Black. Me sorprende muchísimo la herida mortal del señor White. </string>
+    <string name=  "pistaPersonajeGrayVelada4">En el momento en que la señora White gritó, estaba en el salón con la señora Black. Justo en ese momento, pude ver por la puerta de la cocina al señor Navy. </string>
+    <string name="pistaPersonajeVioletVelada4">En el momento del grito pude ver a la señora Black en el salón. Me encontraba en el recibidor justo en ese momento. </string>
+    <string name= "pistaPersonajeBlackVelada4">En el momento del grito estaba en el salón con la señorita Gray. Desde donde me encontraba, pude ver al señor Navy en la cocina. </string>
+    <string name= "pistaPersonajeWhiteVelada4">Estaba en el baño y cuando abrí la puerta para salir, pegué un grito al ver al señor White tirado en el suelo, al que me acerqué. Pude ver que tenía un abrecartas clavado en la espalda. Al gritar ayuda miré a mi alrededor y pude ver al señor Brown  en el dormitorio. </string>
+
+    <string name= "pistaPersonajeGreenVelada5">En el momento del estruendo estaba en el recibidor. Desde allí pude ver al señor Navy en el salón. </string>
+    <string name= "pistaPersonajeBrownVelada5">En el momento del estruendo estaba abriendo la puerta del baño. Justo en ese momento ví a la señora Black a través de la puerta del despacho. </string>
+    <string name="pistaPersonajeGoldenVelada5">En el momento del estruendo estaba en el salón con el señor Navy. Creo que está bebiendo demasiado y, con su pasado, sé que puede convertirse en peligroso con los excesos. </string>
+    <string name=  "pistaPersonajeNavyVelada5">En el momento del estruendo estaba en el salón poniéndote otro whisky doble con el que llevar mejor esta situación. Al escuchar el ruido, me giré y pude ver asomarse por la puerta al señor Green desde el recibidor. </string>
+    <string name=  "pistaPersonajeGrayVelada5">En el momento del estruendo estaba en el despacho con la señora Black. </string>
+    <string name="pistaPersonajeVioletVelada5">En el momento del estruendo estaba en el dormitorio rebuscando entre los cajones en busca del cuaderno negro que contiene la contabilidad B de la corporación. Justo en ese momento me sorprendió la señora White en el dormitorio. </string>
+    <string name= "pistaPersonajeBlackVelada5">En el momento del estruendo estaba en el despacho con la señorita Violet. Al escuchar tal ruido giré la cabeza hacia fuera y pude ver al señor Brown a través de la puerta del baño. </string>
+    <string name= "pistaPersonajeWhiteVelada5">En el momento del estruendo, estaba en el dormitorio sorprendiendo allí a la señorita Violet. Estaba rebuscando entre mis cajones. No la culpo, pues sé que mi marido la ha usado como a otras muchas jóvenes. Siento lástima por su situación. </string>
+
+    <string name= "pistaPersonajeGreenVelada6">En el momento del estruendo estaba en la cocina con la señora White. Desde allí pude ver al señor Navy en el salón. </string>
+    <string name= "pistaPersonajeBrownVelada6">En el momento del estruendo estaba en despacho desde el cual pude ver al señor Golden abriendo la puerta del baño para salir. </string>
+    <string name="pistaPersonajeGoldenVelada6">En el momento del estruendo estaba en el baño, desde el cual pude ver, al abrir la puerta para salir, al señor Brown en el despacho. </string>
+    <string name=  "pistaPersonajeNavyVelada6">En el momento del estruendo estaba en el salón desde el cual, al girarme desde el bar donde estaba preparándote un whisky, pude ver al señor Green en la cocina. </string>
+    <string name=  "pistaPersonajeGrayVelada6">En el momento del estruendo estaba en el dormitorio con la señora Black. </string>
+    <string name="pistaPersonajeVioletVelada6">En el momento del estruendo estaba en el salón junto al señor Navy. </string>
+    <string name= "pistaPersonajeBlackVelada6">En el momento del estruendo estaba en el dormitorio con la señorita Grey. </string>
+    <string name= "pistaPersonajeWhiteVelada6">En el momento del estruendo estaba en la cocina con tu hijo el señor Green. </string>
+
+    <string name= "pistaPersonajeGreenVelada7">En el momento de la muerte estaba en el dormitorio. Al escuchar los gritos abrí la puerta y a través del pasillo ví al señor Navy en el salón. </string>
+    <string name= "pistaPersonajeBrownVelada7">En el momento de la muerte estaba en el despacho con el señor Golden, además de ver a la señorita Violet asomar desde el baño. Creo que el señor White a muerto de un infarto repentino, pero el olor que desprende el cuerpo me da a entender que es producto de un envenenamiento por Maitotoxina, un veneno muy sofisticado y caro. Me preocupa que puedan pensar que he sido yo. </string>
+    <string name="pistaPersonajeGoldenVelada7">En el momento de la muerte estaba en el despacho con el señor Brown. </string>
+    <string name=  "pistaPersonajeNavyVelada7">En el momento de la muerte estaba en el salón y ví como el señor White se llevaba una mano al corazón y otra al bolsillo. Desde allí pude ver a la señorita Grey en el recibidor y a la señora White en la cocina. </string>
+    <string name=  "pistaPersonajeGrayVelada7">En el momento de la muerte estaba en el recibidor. Desde allí pude ver al señor Navy en el salón. </string>
+    <string name="pistaPersonajeVioletVelada7">En el momento de la muerte estaba en el baño. Desde allí, al escuchar los gritos del señor Navy, abrí la puerta y pude ver al señor Brown en el despacho. </string>
+    <string name= "pistaPersonajeBlackVelada7">En el momento de la muerte estaba en la cocina con la señora White. El señor White ha estado entrando y saliendo muchas veces de la cocina y no entiendo por qué. </string>
+    <string name= "pistaPersonajeWhiteVelada7">En el momento de la muerte estaba en la cocina con la señora Black. Pude ver a través de la puerta al señor Navy en el salón. </string>
+
+
+    <string name= "pistaPersonajeGreenVelada8">asdfasdf asdf asdfasdf </string>
+    <string name= "pistaPersonajeBrownVelada8">asdfasdf asdf asdfasdf </string>
+    <string name="pistaPersonajeGoldenVelada8">asdfasdf asdf asdfasdf </string>
+    <string name=  "pistaPersonajeNavyVelada8">asdfasdf asdf asdfasdf </string>
+    <string name=  "pistaPersonajeGrayVelada8">asdfasdf asdf asdfasdf </string>
+    <string name="pistaPersonajeVioletVelada8">asdfasdf asdf asdfasdf </string>
+    <string name= "pistaPersonajeBlackVelada8">asdfasdf asdf asdfasdf </string>
+    <string name= "pistaPersonajeWhiteVelada8">asdfasdf asdf asdfasdf </string>
+
+    <string name= "pistaPersonajeGreenVelada1Mapa">8</string>
+    <string name= "pistaPersonajeBrownVelada1Mapa">24</string>
+    <string name="pistaPersonajeGoldenVelada1Mapa">345</string>
+    <string name=  "pistaPersonajeNavyVelada1Mapa">245</string>
+    <string name=  "pistaPersonajeGrayVelada1Mapa">35</string>
+    <string name="pistaPersonajeVioletVelada1Mapa">67</string>
+    <string name= "pistaPersonajeBlackVelada1Mapa">678</string>
+    <string name= "pistaPersonajeWhiteVelada1Mapa">18</string>
+
+    <string name= "pistaPersonajeGreenVelada2Mapa">8</string>
+    <string name= "pistaPersonajeBrownVelada2Mapa">128</string>
+    <string name="pistaPersonajeGoldenVelada2Mapa">356</string>
+    <string name=  "pistaPersonajeNavyVelada2Mapa">47</string>
+    <string name=  "pistaPersonajeGrayVelada2Mapa">356</string>
+    <string name="pistaPersonajeVioletVelada2Mapa">36</string>
+    <string name= "pistaPersonajeBlackVelada2Mapa">47</string>
+    <string name= "pistaPersonajeWhiteVelada2Mapa">12</string>
+
+    <string name= "pistaPersonajeGreenVelada3Mapa">18</string>
+    <string name= "pistaPersonajeBrownVelada3Mapa">26</string>
+    <string name="pistaPersonajeGoldenVelada3Mapa">25</string>
+    <string name=  "pistaPersonajeNavyVelada3Mapa">148</string>
+    <string name=  "pistaPersonajeGrayVelada3Mapa">37</string>
+    <string name="pistaPersonajeVioletVelada3Mapa">26</string>
+    <string name= "pistaPersonajeBlackVelada3Mapa">37</string>
+    <string name= "pistaPersonajeWhiteVelada3Mapa">148</string>
+
+    <string name= "pistaPersonajeGreenVelada4Mapa">28</string>
+    <string name= "pistaPersonajeBrownVelada4Mapa">128</string>
+    <string name="pistaPersonajeGoldenVelada4Mapa">45</string>
+    <string name=  "pistaPersonajeNavyVelada4Mapa">457</string>
+    <string name=  "pistaPersonajeGrayVelada4Mapa">347</string>
+    <string name="pistaPersonajeVioletVelada4Mapa">67</string>
+    <string name= "pistaPersonajeBlackVelada4Mapa">347</string>
+    <string name= "pistaPersonajeWhiteVelada4Mapa">12</string>
+
+    <string name= "pistaPersonajeGreenVelada5Mapa">48</string>
+    <string name= "pistaPersonajeBrownVelada5Mapa">27</string>
+    <string name="pistaPersonajeGoldenVelada5Mapa">45</string>
+    <string name=  "pistaPersonajeNavyVelada5Mapa">48</string>
+    <string name=  "pistaPersonajeGrayVelada5Mapa">37</string>
+    <string name="pistaPersonajeVioletVelada5Mapa">67</string>
+    <string name= "pistaPersonajeBlackVelada5Mapa">267</string>
+    <string name= "pistaPersonajeWhiteVelada5Mapa">16</string>
+
+    <string name= "pistaPersonajeGreenVelada6Mapa">148</string>
+    <string name= "pistaPersonajeBrownVelada6Mapa">25</string>
+    <string name="pistaPersonajeGoldenVelada6Mapa">25</string>
+    <string name=  "pistaPersonajeNavyVelada6Mapa">48</string>
+    <string name=  "pistaPersonajeGrayVelada6Mapa">37</string>
+    <string name="pistaPersonajeVioletVelada6Mapa">46</string>
+    <string name= "pistaPersonajeBlackVelada6Mapa">37</string>
+    <string name= "pistaPersonajeWhiteVelada6Mapa">18</string>
+
+    <string name= "pistaPersonajeGreenVelada7Mapa">48</string>
+    <string name= "pistaPersonajeBrownVelada7Mapa">256</string>
+    <string name="pistaPersonajeGoldenVelada7Mapa">25</string>
+    <string name=  "pistaPersonajeNavyVelada7Mapa">134</string>
+    <string name=  "pistaPersonajeGrayVelada7Mapa">34</string>
+    <string name="pistaPersonajeVioletVelada7Mapa">26</string>
+    <string name= "pistaPersonajeBlackVelada7Mapa">17</string>
+    <string name= "pistaPersonajeWhiteVelada7Mapa">147</string>
+
+    <string name= "pistaPersonajeGreenVelada8Mapa">18</string>
+    <string name= "pistaPersonajeBrownVelada8Mapa">256</string>
+    <string name="pistaPersonajeGoldenVelada8Mapa">25</string>
+    <string name=  "pistaPersonajeNavyVelada8Mapa">134</string>
+    <string name=  "pistaPersonajeGrayVelada8Mapa">34</string>
+    <string name="pistaPersonajeVioletVelada8Mapa">26</string>
+    <string name= "pistaPersonajeBlackVelada8Mapa">17</string>
+    <string name= "pistaPersonajeWhiteVelada8Mapa">17</string>
+
+    <string name= "Green">Señor Green: </string>
+    <string name= "Brown">Doctor Brown: </string>
+    <string name="Golden">Señor Golden: </string>
+    <string name=  "Navy">Señor Navy: </string>
+    <string name=  "Gray">Señora Gray: </string>
+    <string name="Violet">Señorita Violet: </string>
+    <string name= "Black">Señora Black: </string>
+    <string name= "White">Señora White: </string>
+
+    <string name= "indicioDescubierto">¡Enhorabuena!\nPuedes volver a hablar con @personaje@ para que te revele su pista</string>
+    <string name= "pistaDescubierta">¡Enhorabuena!\nHas descubierto una pista.\nPuedes verla en tu libreta.</string>
+    <string name= "pGreen"> el señor Green</string>
+    <string name= "pBrown">el doctor Brown</string>
+    <string name="pGolden">el señor Golden</string>
+    <string name=  "pNavy">el señor Navy</string>
+    <string name=  "pGray">la señora Gray</string>
+    <string name="pViolet">la señorita Violet</string>
+    <string name= "pBlack">la señora Black</string>
+    <string name= "pWhite">la señora White</string>
+
+    <string name= "textPistaPersonajeGreen">Si la persona con la que hablas te muestra este objeto, pulsa mostrar código</string>
+    <string name= "textPistaPersonajeBrown">Si la persona con la que hablas te muestra este objeto, pulsa mostrar código</string>
+    <string name= "textPistaPersonajeGolden">Si la persona con la que hablas te muestra este objeto, pulsa mostrar código</string>
+    <string name= "textPistaPersonajeNavy">Si la persona con la que hablas te muestra este objeto, pulsa mostrar código</string>
+    <string name= "textPistaPersonajeGray">Si la persona con la que hablas te muestra este objeto, pulsa mostrar código</string>
+    <string name= "textPistaPersonajeViolet">Si la persona con la que hablas te muestra este objeto, pulsa mostrar código</string>
+    <string name= "textPistaPersonajeBlack">Si la persona con la que hablas te muestra este objeto, pulsa mostrar código</string>
+    <string name= "textPistaPersonajeWhite">Muestra esto para que resuelvan tu acertijo</string>
+
+    <string name= "textoJuegoWhite">Ilumina todas las luces</string>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:gravity="center"
+              android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+<me.dm7.barcodescanner.zxing.ZXingScannerView
+    android:id="@+id/scanner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:laserEnabled="false"
+    app:maskColor="#00ff00ff"
+    app:squaredFinder="true"
+    app:shouldScaleToFill="true"
+    android:paddingBottom="200dp"
+    />
+        <ImageView
+            android:id="@+id/imgLupa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/lupa"/>
+
+        <TextView
+            android:id="@+id/txtQr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            android:padding="70dp"
+            android:gravity="center|top"
+            android:textColor="#000000"
+            android:alpha="0"
+            android:textSize="16dp"
+            android:visibility="invisible"
+            android:text="Lorem ipsum dolor sit ametst laborum."/>
+    </FrameLayout>
+
+</LinearLayout>

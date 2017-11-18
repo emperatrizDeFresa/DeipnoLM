@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tile"
+        android:scaleType="fitXY" />
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fitsSystemWindows="false"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/sombra"
+            android:scaleType="fitXY" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="60dp"
+        >
+
+        <ScrollView
+            android:id="@+id/scrInicial"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+
+                >
+
+
+                <TextView
+                    android:id="@+id/txtInicial"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shadowColor="#000000"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/textoInicial"
+                    android:textColor="@color/textColor"
+                    android:textSize="42dp"/>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+        <!-- Dummy item to prevent AutoCompleteTextView from receiving focus -->
+        <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="0px"
+            android:layout_height="0px"/>
+        <EditText
+            android:id="@+id/txtCode"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:imeOptions="flagNoFullscreen"
+            android:layout_gravity="center"
+            android:background="@drawable/textbox"
+            android:ems="10"
+            android:hint="@string/codeHint"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="36dp"
+            android:inputType="text"
+            android:nextFocusUp="@id/txtCode"
+            android:nextFocusLeft="@id/txtCode"
+            android:gravity="center"
+            />
+
+        <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:imeOptions="flagNoFullscreen"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:background="@drawable/textbox"-->
+            <!--android:ems="10"-->
+            <!--android:hint="@string/codeHint"-->
+            <!--android:paddingLeft="20dp"-->
+            <!--android:paddingRight="20dp"-->
+            <!--android:textSize="36dp"-->
+            <!--android:inputType="text"-->
+            <!--/>-->
+
+    </LinearLayout>
+</FrameLayout>
+</FrameLayout>
