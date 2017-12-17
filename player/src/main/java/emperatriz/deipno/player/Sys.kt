@@ -7,6 +7,11 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.view.MotionEvent
 import android.view.animation.Animation
+import android.text.Spannable
+import android.icu.lang.UProperty.INT_START
+import android.text.SpannableStringBuilder
+
+
 
 
 object Sys {
@@ -165,7 +170,7 @@ object Sys {
     }
 
     fun getHandwrittenFont(context : Context) : Typeface{
-        return Typeface.createFromAsset(context.assets, "fonts/Frenchpress.otf")
+        return Typeface.createFromAsset(context.assets, "fonts/blackjack.otf")
     }
 
     fun setPersonajeTitulo(txt : TextView, context : Context){
@@ -352,6 +357,11 @@ object Sys {
                     BLACK  -> v.text = context.getString(R.string.Black)+" "+getPista(personaje,context)
                     GREEN  -> v.text = context.getString(R.string.Green)+" "+getPista(personaje,context)
                 }
+
+                val str = SpannableStringBuilder(v.text)
+                str.setSpan(android.text.style.StyleSpan(android.graphics.Typeface.BOLD), 0, v.text.indexOf(':'), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
+                v.text = str
+
             }else{
                 v.visibility= View.GONE
             }
@@ -482,6 +492,9 @@ object Sys {
                 val parts = pista.split("_");
                 val status = Integer.parseInt(parts[2])
                 val personaje = Integer.parseInt(parts[3])
+                if (status== PISTA_CON_INDICIO && personaje== WHITE){
+                    return status;
+                }
                 if (getPistaState(personaje,ctx) == status-1){
                     if (getPistaState(personaje,ctx) == PISTA_CON_INDICIO && status == PISTA_DESCUBIERTA){
                         addConfirmations(personaje,ctx)

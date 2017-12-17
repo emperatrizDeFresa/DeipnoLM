@@ -129,35 +129,35 @@ try {
     } else if (status > 0) {
         val parts = String(data).split("_");
         val personaje = Integer.parseInt(parts[3])
+        if (Sys.isVeladaIniciada(this@Lupa)) {
+            if (personaje == Sys.WHITE) {
 
-        if (personaje==Sys.WHITE){
-            var i = Intent(this@Lupa, Juego::class.java)
-            val v = getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
-            v.vibrate(500)
-            finish()
-            val sdf= Sys.getPistaState(Sys.WHITE,this)
-            if (Sys.getPistaState(Sys.WHITE,this)==Sys.PISTA_CON_INDICIO){
+                var i = if (Sys.getVelada(this@Lupa) >= 4) Intent(this@Lupa, Juego::class.java) else Intent(this@Lupa, JuegoPuzzle::class.java)
+                val v = getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+                v.vibrate(500)
+                finish()
+                val sdf = Sys.getPistaState(Sys.WHITE, this)
+                if (Sys.getPistaState(Sys.WHITE, this) <= Sys.PISTA_CON_INDICIO) {
+                    startActivity(i)
+                    overridePendingTransition(R.anim.activity_in, R.anim.activity_out)
+                } else {
+                    overridePendingTransition(R.anim.activity_back_in, R.anim.activity_back_out)
+                }
+
+            } else {
+                var i = Intent(this@Lupa, PistaEncontrada::class.java)
+                if (status == Sys.PISTA_DESCUBIERTA) {
+                    i.putExtra("text", getString(R.string.pistaDescubierta))
+                } else if (status == Sys.PISTA_CON_INDICIO) {
+                    i.putExtra("text", getString(R.string.indicioDescubierto).replace("@personaje@", Sys.getPersonajePista(personaje, this)))
+                }
+                val v = getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+                v.vibrate(500)
+                finish()
                 startActivity(i)
-                overridePendingTransition(R.anim.activity_in, R.anim.activity_out)
-            }else{
-                overridePendingTransition(R.anim.activity_back_in, R.anim.activity_back_out)
+                overridePendingTransition(R.anim.activity_in, R.anim.activity_out);
             }
-
-        }else{
-            var i = Intent(this@Lupa, PistaEncontrada::class.java)
-            if (status == Sys.PISTA_DESCUBIERTA) {
-                i.putExtra("text", getString(R.string.pistaDescubierta))
-            }
-            else if (status == Sys.PISTA_CON_INDICIO) {
-                i.putExtra("text", getString(R.string.indicioDescubierto).replace("@personaje@", Sys.getPersonajePista(personaje, this)))
-            }
-            val v = getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
-            v.vibrate(500)
-            finish()
-            startActivity(i)
-            overridePendingTransition(R.anim.activity_in, R.anim.activity_out);
         }
-
     } else {
 
     }

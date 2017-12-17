@@ -76,6 +76,11 @@ class Inicial : AppCompatActivity(), View.OnFocusChangeListener {
             }
 
             override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {
+                if (s.toString().equals("pene")){
+                    startActivity(Intent(this@Inicial, JuegoPuzzle::class.java))
+                    overridePendingTransition(R.anim.activity_in, R.anim.activity_out)
+                    finish()
+                }
                 if (Sys.checkClave(s.toString(),this@Inicial)){
                     val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
                     imm.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0)

@@ -25,7 +25,7 @@ class PistaEncontrada : AppCompatActivity() {
                         .or(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION)
                         .or(View.SYSTEM_UI_FLAG_FULLSCREEN)
                         .or(View.SYSTEM_UI_FLAG_IMMERSIVE))
-        val externalFont = Sys.getHandwrittenFont(this@PistaEncontrada)
+        val externalFont = Sys.getFont(this@PistaEncontrada)
 
         val t = intent.getStringExtra("text")
 

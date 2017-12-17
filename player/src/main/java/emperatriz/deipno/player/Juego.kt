@@ -168,7 +168,7 @@ class Juego : AppCompatActivity(), View.OnClickListener, View.OnTouchListener {
                         .or(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION)
                         .or(View.SYSTEM_UI_FLAG_FULLSCREEN)
                         .or(View.SYSTEM_UI_FLAG_IMMERSIVE))
-        val externalFont = Sys.getHandwrittenFont(this@Juego)
+        val externalFont = Sys.getFont(this@Juego)
 
         val textoJuego = findViewById(R.id.textoJuego) as TextView
 

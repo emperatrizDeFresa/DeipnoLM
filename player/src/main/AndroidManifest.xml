@@ -81,6 +81,11 @@
             android:screenOrientation="portrait">
 
         </activity>
+        <activity
+            android:name=".JuegoPuzzle"
+            android:screenOrientation="portrait">
+
+        </activity>
     </application>
 
 </manifest>

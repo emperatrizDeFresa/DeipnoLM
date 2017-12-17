@@ -46,7 +46,8 @@ class DarPista : AppCompatActivity() {
 
 
         val mmdf = SimpleDateFormat("SSS")
-        val qrText = String(Base64.encode(("deipno_pista_2_"+Sys.getPersonaje(this)+"_"+mmdf.format(Date())).toByteArray(), Base64.DEFAULT)).replace("\n","")
+        val qrT= if (Sys.getPersonaje(this@DarPista)==Sys.WHITE) "deipno_pista_1_" else "deipno_pista_2_"
+        val qrText = String(Base64.encode((qrT+Sys.getPersonaje(this)+"_"+mmdf.format(Date())).toByteArray(), Base64.DEFAULT)).replace("\n","")
         val bitmap = net.glxn.qrgen.android.QRCode.from(qrText).withSize(1000, 1000).withErrorCorrection(ErrorCorrectionLevel.H)
                                                                         .withColor(0xff000000.toInt(),0xffffffff.toInt()).bitmap()
         qr.setImageBitmap(bitmap)
