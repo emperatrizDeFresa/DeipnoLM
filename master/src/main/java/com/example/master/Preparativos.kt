@@ -34,28 +34,39 @@ class Preparativos : AppCompatActivity(), View.OnClickListener {
         p5!!.setOnClickListener(this)
         volver = findViewById<Button>(R.id.volver)
         volver!!.setOnClickListener(this)
+
+        val inicio = findViewById<Button>(R.id.inicio)
+        inicio.setOnClickListener( View.OnClickListener {
+            finish()
+            startActivity(Intent(this@Preparativos, Principal::class.java))
+            overridePendingTransition(R.anim.activity_back_in, R.anim.activity_back_out)
+        })
     }
 
     override fun onClick(v: View?) {
-        if (v==p2){
-            var i =Intent(this@Preparativos, Texto::class.java)
-            i.putExtra("pantalla",Sys.PANTALLA_BIENVENIDA)
+        if (v == p2) {
+            var i = Intent(this@Preparativos, Texto::class.java)
+            i.putExtra("pantalla", Sys.PANTALLA_BIENVENIDA)
             startActivity(i)
             overridePendingTransition(R.anim.activity_in, R.anim.activity_out)
-        } else  if (v==p3){
-            var i =Intent(this@Preparativos, Texto::class.java)
-            i.putExtra("pantalla",Sys.PANTALLA_DESCRIPCION)
+        } else if (v == p3) {
+            var i = Intent(this@Preparativos, Texto::class.java)
+            i.putExtra("pantalla", Sys.PANTALLA_DESCRIPCION)
             startActivity(i)
             overridePendingTransition(R.anim.activity_in, R.anim.activity_out)
-        }else  if (v==p4){
-            var i =Intent(this@Preparativos, Texto::class.java)
-            i.putExtra("pantalla",Sys.PANTALLA_VELADA)
+        } else if (v == p4) {
+            var i = Intent(this@Preparativos, Texto::class.java)
+            i.putExtra("pantalla", Sys.PANTALLA_VELADA)
             startActivity(i)
             overridePendingTransition(R.anim.activity_in, R.anim.activity_out)
-        }else  if (v==p5){
-            startActivity(Intent(this@Preparativos, Tareas::class.java))
+        } else if (v == p5) {
+            var i = Intent(this@Preparativos, Texto::class.java)
+            i.putExtra("pantalla", Sys.PANTALLA_TAREA_1)
+            startActivity(i)
             overridePendingTransition(R.anim.activity_in, R.anim.activity_out)
-        }else  if (v==volver){
+//            startActivity(Intent(this@Preparativos, Tareas::class.java))
+//            overridePendingTransition(R.anim.activity_in, R.anim.activity_out)
+        } else if (v == volver) {
             finish()
             overridePendingTransition(R.anim.activity_back_in, R.anim.activity_back_out)
         }

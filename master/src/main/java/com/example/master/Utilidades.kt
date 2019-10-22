@@ -12,6 +12,7 @@ import android.app.PendingIntent
 import android.app.PendingIntent.getBroadcast
 import android.content.Context
 import android.content.Context.ALARM_SERVICE
+import android.os.Environment
 import android.os.StrictMode
 import android.widget.Toast
 import java.io.File
@@ -44,6 +45,13 @@ class Utilidades : AppCompatActivity(), View.OnClickListener {
         volver = findViewById<Button>(R.id.volver)
         volver!!.setOnClickListener(this)
 
+        val inicio = findViewById<Button>(R.id.inicio)
+        inicio.setOnClickListener( View.OnClickListener {
+            finish()
+            startActivity(Intent(this@Utilidades, Principal::class.java))
+            overridePendingTransition(R.anim.activity_back_in, R.anim.activity_back_out)
+        })
+
     }
 
     @Throws(IOException::class)
@@ -57,35 +65,9 @@ class Utilidades : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(v: View?) {
-        if (v== imprimibles){
-            val assetManager = assets
-
-            var i: InputStream? = null
-            var o: OutputStream? = null
-            val file = File(filesDir, "ObjetosImprimibles.pdf")
-            try {
-                i = assetManager.open("ObjetosImprimibles.pdf")
-                o = openFileOutput(file.getName(), Context.MODE_WORLD_READABLE)
-
-                copyPdfFile(i, o)
-                i!!.close()
-                i = null
-                o!!.flush()
-                o!!.close()
-                o = null
-            } catch (e: Exception) {
-
-            }
-
-            val builder = StrictMode.VmPolicy.Builder()
-            StrictMode.setVmPolicy(builder.build())
-            val intent = Intent(Intent.ACTION_VIEW)
-            intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
-            intent.setDataAndType(
-                    Uri.parse("file://$filesDir/ObjetosImprimibles.pdf"),
-                    "application/pdf")
-
-            startActivity(intent)
+        if (v == imprimibles){
+            startActivity(Intent(this@Utilidades, PDFReader::class.java))
+            overridePendingTransition(R.anim.activity_in, R.anim.activity_out)
         } else  if (v== temporizador){
             val w = System.currentTimeMillis() + 85*60000L
             val am = getSystemService(Context.ALARM_SERVICE) as AlarmManager

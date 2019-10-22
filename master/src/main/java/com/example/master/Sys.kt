@@ -33,7 +33,7 @@ object Sys {
     public val PANTALLA_VELADA=3
     public val PANTALLA_TAREA_1=4
     public val PANTALLA_TAREA_2=5
-
+    public val PANTALLA_DIA_VELADA=6
 
     fun reset(context: Context){
         val prefs = context.getSharedPreferences(prefName, Context.MODE_PRIVATE)
@@ -49,6 +49,7 @@ object Sys {
             PANTALLA_VELADA -> v.text = context.getString(R.string.titulo3)
             PANTALLA_TAREA_1 -> v.text = context.getString(R.string.titulo51)
             PANTALLA_TAREA_2 -> v.text = context.getString(R.string.titulo52)
+            PANTALLA_DIA_VELADA -> v.text = context.getString(R.string.tituloDiaVelada)
         }
     }
 
@@ -59,6 +60,7 @@ object Sys {
             PANTALLA_VELADA -> v.text = context.getString(R.string.texto3)
             PANTALLA_TAREA_1 -> v.text = context.getString(R.string.texto51)
             PANTALLA_TAREA_2 -> v.text = context.getString(R.string.texto52)
+            PANTALLA_DIA_VELADA -> v.text = context.getString(R.string.textoDiaVelada)
         }
     }
 

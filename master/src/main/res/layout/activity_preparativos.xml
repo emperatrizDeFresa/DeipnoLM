@@ -12,8 +12,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-
-
             >
 
             <Button
@@ -45,7 +43,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.33"
-                android:text="@string/listatareas"
+                android:text="@string/planifica"
 />
 
             <LinearLayout
@@ -53,7 +51,14 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-
+                <Button
+                    android:id="@+id/inicio"
+                    android:text="@string/inicio"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/ripple_effect2"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_weight="0.5" />
                 <Button
                     android:id="@+id/volver"
                     android:layout_width="0dp"

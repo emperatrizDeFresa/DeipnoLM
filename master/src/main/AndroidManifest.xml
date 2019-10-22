@@ -45,6 +45,10 @@
             android:screenOrientation="portrait">
 
         </activity>
+        <activity android:name=".PDFReader"
+            android:screenOrientation="portrait">
+
+        </activity>
         <receiver
             android:name="com.example.master.MyReceiver"
             android:exported="false" />

@@ -33,9 +33,16 @@ class Texto : AppCompatActivity() {
             overridePendingTransition(R.anim.activity_back_in, R.anim.activity_back_out)
         })
 
+        val inicio = findViewById<Button>(R.id.inicio)
+        inicio.setOnClickListener( View.OnClickListener {
+            finish()
+            startActivity(Intent(this@Texto, Principal::class.java))
+            overridePendingTransition(R.anim.activity_back_in, R.anim.activity_back_out)
+        })
+
         val continuar = findViewById<Button>(R.id.continuar)
         continuar.setOnClickListener( View.OnClickListener {
-            if (pantalla==Sys.PANTALLA_TAREA_2){
+            if (pantalla==Sys.PANTALLA_DIA_VELADA){
                 startActivity(Intent(this@Texto, Utilidades::class.java))
                 overridePendingTransition(R.anim.activity_in, R.anim.activity_out)
             }
@@ -47,7 +54,7 @@ class Texto : AppCompatActivity() {
             }
 
         })
-        if (pantalla==Sys.PANTALLA_TAREA_2){
+        if (pantalla==Sys.PANTALLA_DIA_VELADA){
             continuar.text=getString(R.string.utilidades)
         }
 

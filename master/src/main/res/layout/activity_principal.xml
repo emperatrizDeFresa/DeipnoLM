@@ -1,32 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical">
 
-            <Button
-                android:id="@+id/preparativos"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="0.33"
-                android:text="@string/preparativos"/>
+    <Button
+        android:id="@+id/previo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:text="@string/previo" />
 
-            <Button
-                android:id="@+id/diaVelada"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="0.33"
-                android:text="@string/diavelada"
-                />
+    <Button
+        android:id="@+id/creacionVelada"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:text="@string/creacionvelada" />
 
-            <Button
-                android:id="@+id/utilidades"
-                android:layout_width="match_parent"
+    <Button
+        android:id="@+id/preparativos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:text="@string/preparativos" />
 
-                android:layout_height="0dp"
-                android:layout_weight="0.33"
-                android:text="@string/utilidades"
-                />
+    <Button
+        android:id="@+id/utilidades"
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:text="@string/utilidades" />
+
+    <Button
+        android:id="@+id/diaVelada"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:text="@string/diavelada" />
+
+
 </LinearLayout>
